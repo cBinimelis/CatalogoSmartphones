@@ -5,12 +5,22 @@
     <meta charset="utf-8" />
     <title>Jumbo Los Angeles</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link href="css/uikit.min.css" rel="stylesheet" />
+    <link href="css/Personal.css" rel="stylesheet" />
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
 </head>
 
 <body>
+    <div class="uk-position-center-right uk-position-medium uk-position-fixed uk-dark">
+        <ul class="uk-dotnav uk-dotnav-vertical">
+            <li><a href="#Cover" uk-scroll title="Portada" uk-tooltip="pos: left">Item 1</a></li>
+            <li><a href="#Presentacion" uk-scroll title="Presentacion" uk-tooltip="pos: left">Item 2</a></li>
+            <li><a href="#LG" uk-scroll title="Equipos LG" uk-tooltip="pos: left">Item 3</a></li>
+            <li><a href="#Sony" uk-scroll title="Equipos Sony" uk-tooltip="pos: left">Item 4</a></li>
+            <li><a href="#Huawei" uk-scroll title="Equipos Huawei" uk-tooltip="pos: left">Item 5</a></li>
+        </ul>
+    </div>
     <div id="cover" uk-inline>
         <div uk-height-viewport class="uk-background-fixed uk-background-center-center uk-width-viewport" style="background-image: url(img/cover.jpg);"></div>
         <div class="uk-position-center-left uk-overlay uk-overlay-default">
@@ -23,28 +33,22 @@
     <div id="Presentacion" class="uk-section">
         <div class="uk-container">
             <article class="uk-article">
-                <h1 class="uk-article-title">Catalogo de Smartphones</h1>
+                <h1 class="uk-article-title">Compromiso</h1>
                 <p class="uk-article-meta">Ultima actualización: <b>7 de enero de 2018</b></p>
+                <p class="uk-dropcap"></p>
             </article>
 
         </div>
     </div>
-    <div id="Catalogo" class="uk-section">
+    <div id="LG" class="uk-section">
         <div class="uk-container">
-            <div uk-grid class=" uk-height-small uk-child-width-1-3@s">
+            <h1>Equipos LG</h1>
+            <div uk-grid class="uk-child-width-1-3@s">
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle">
                         <img src="img/LG Q6.jpg" alt="Smartphone LG Q6" href="#modal-lg-q6" uk-toggle>
                         <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
                             <p class="uk-h4 uk-margin-remove">LG Q6</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-text-center">
-                    <div class="uk-inline-clip uk-transition-toggle">
-                        <img src="img/Sony XA1 Ultra.jpg" alt="Smartphone Sony XA1 Ultra">
-                        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
-                            <p class="uk-h4 uk-margin-remove">Sony Xperia XA1 Ultra</p>
                         </div>
                     </div>
                 </div>
@@ -82,24 +86,110 @@
                 </div>
             </div>
         </div>
+    </div>
 
+    <div class="uk-divider-icon uk-container"></div>
 
-        <!-- #####MODALS###### -->
-        <div id="modal-lg-q6" class="uk-modal-full" uk-modal>
-            <div class="uk-modal-dialog">
-                <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-                <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                    <div class="uk-background-cover" style="background-image: url('img/LG Q6-Modal.jpg');" uk-height-viewport></div>
-                    <div class="uk-padding-large uk-article">
-                        <h1 class="uk-article-title">Especificaciones y caracteristicas</h1>
-                        <p class="uk-article-meta"> SAP: 1666666</p>
-
-                        <ul class="uk-list uk-list-divider">
-                            <li>List item 1</li>
-                            <li>List item 2</li>
-                            <li>List item 3</li>
-                        </ul>
+    <div id="Sony" class="uk-section">
+        <div class="uk-container">
+            <h1>Equipos Sony</h1>
+            <div uk-grid class="uk-child-width-1-3@s">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle">
+                        <img src="img/Sony XA1 Ultra.jpg" alt="Smartphone Sony XA1 Ultra" href="#modal-sony-xa1" uk-toggle>
+                        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                            <p class="uk-h4 uk-margin-remove">Sony Xperia XA1 Ultra</p>
+                        </div>
                     </div>
+                </div>
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle">
+                        <img src="img/Sony XA1 Ultra.jpg" alt="Smartphone Sony XA1 Ultra">
+                        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                            <p class="uk-h4 uk-margin-remove">Sony Xperia XA1 Ultra</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle">
+                        <img src="img/Sony XA1 Ultra.jpg" alt="Smartphone Sony XA1 Ultra">
+                        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                            <p class="uk-h4 uk-margin-remove">Sony Xperia XA1 Ultra</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ##### MODALS ###### -->
+    <!--LG-->
+
+    <div id="modal-lg-q6" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/LG Q6-Modal.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large uk-article">
+                    <h1 class="uk-article-title">LG Q6</h1>
+                    <p class="uk-text-lead">Especificaciones y caracteristicas</p>
+                    <p class="uk-article-meta"> SAP: 1730649</p>
+                    <ul uk-accordion="multiple: true">
+                        <li class="uk-open">
+                            <h3 class="uk-accordion-title">Item 1</h3>
+                            <div class="uk-accordion-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="uk-accordion-title">Item 2</h3>
+                            <div class="uk-accordion-content">
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="uk-accordion-title">Item 3</h3>
+                            <div class="uk-accordion-content">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sony-->
+    <div id="modal-sony-xa1" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/Sony XA1 Ultra-Modal.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large uk-article">
+                    <h1 class="uk-article-title">Sony XA1 Ultra</h1>
+                    <p class="uk-text-lead">Especificaciones y caracteristicas</p>
+                    <p class="uk-article-meta"> SAP: 1730718</p>
+                    <ul uk-accordion="multiple: true">
+                        <li class="uk-open">
+                            <h3 class="uk-accordion-title">Item 1</h3>
+                            <div class="uk-accordion-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="uk-accordion-title">Item 2</h3>
+                            <div class="uk-accordion-content">
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="uk-accordion-title">Item 3</h3>
+                            <div class="uk-accordion-content">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
