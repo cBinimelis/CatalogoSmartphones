@@ -1,60 +1,89 @@
-﻿1685404		Samsung j1 mini prime
-1685403
-1722243		Samsung j3
-1710642
-1685402
-1716290		Xiaomi 4A
-1726017		Samsung j5 prime
-1710696
-1668944
-1680385
-1704564		LG K10 2017
-1716293		Xiaomi 4X
-1716292
-1704569		LG K4 2017 Titan
-1704571		LG Stylus 3
-1704572
-1677881		Motorola G4 Play
-1710641		Samsung j7 prime
-1714916
-1714915
-1704570		LG Stylus Titan
-1651475		Huawei GR3
-1677883		Alcatel Pixi F1
+﻿
+//Samsung
+//1685404		Samsung j1 mini prime
+//1685403
+1625561		Samsung j1 Ace
+1669047
+1686558
+1686559
 1710639		Samsung J2 prime
 1671173
 1686560
 1686561
 1709060
-1716542		Motorola E4 Plus
+1728995
+1722243		Samsung j3
+1710642
+1685402
+1726017		Samsung j5 prime
+1710696
+1668944
+1680385
+1710641		Samsung j7 prime
+1714916
+1714915
 1729278		Samsung j7 Neo
-1646047		Huawei Gplay Mini
-1671576		Celular Senior Microlab
+
+//LG
+1704564		LG K10 2017
+1704569		LG K4 2017 Titan
+1704571		LG Stylus 3
+1704572
+1704570		LG Stylus Titan
 1685105		LG X Max
 1698178		LG K10
 1662471		
+1685106		LG X Cam
+1669047		LG X Style
+1709931		LG K4
+
+//Huawei
+1662407		Huawei Y5 II
+1663817
+1646047		Huawei Gplay Mini
+1651475		Huawei GR3
 1653202		Huawei Y6
+1686110		Huawei Y6 II
+1709932
+1729284
+1662469		Huawei P8 Lite
+1706035		Huawei P9 Lite
+1729287		Huawei P9 Lite Smart
+
+//Lenovo
+1677881		Motorola G4 Play
+1716542		Motorola E4 Plus
 1690086		Lenovo Vibe B
-1625561		Samsung j1 Ace
-1669047
-1686558
-1686559
+1709929		Motorola C
+1729285		Moto C Plus
+
+
+1677883		Alcatel Pixi F1
+1671576		Celular Senior Microlab
 1629007		BMobile AX810
 1658267		Nim5500
-1685106		LG X Cam
-1686110		Huawei Y6 II
-1706035		Huawei P9 Lite
 1606161		Celular Own F1021
 1629543		Alcatel Pixi 3 (4.0)
 1629539
 1652420		Alcatel Pixi 3 (4.5)
 1657870		Own Fun Plus
-1662407		Huawei Y5 II
-1663817
 1662468		Own s3000s
-1662469		Huawei P8 Lite
 1662470		Own One
 1663816		BMobile AX-605
-1669047		LG X Style
 1669483		Sony E5
 1672571		Alcatel Pixi 4 (5.0)
+1709926		Alcatel U
+1709928		BMobile AX820
+1727234		Nokia 5
+1727235
+1729283		Own 1023
+1729288		Nokia 3
+1730715		Alcatel Pixi 3 (3.5)
+1730717		Huawei Y7
+1730718		Sony XA1 Ultra
+1730719		Sony L1
+
+
+1716290		Xiaomi 4A
+1716293		Xiaomi 4X
+1716292

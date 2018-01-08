@@ -17,9 +17,10 @@
         <ul class="uk-dotnav uk-dotnav-vertical" uk-scrollspy-nav="closest: li; scroll: true">
             <li><a href="#Cover" uk-scroll title="Portada" uk-tooltip="pos: left">Item 1</a></li>
             <li><a href="#Presentacion" uk-scroll title="Presentacion" uk-tooltip="pos: left">Item 2</a></li>
-            <li><a href="#LG" uk-scroll title="Equipos LG" uk-tooltip="pos: left">Item 3</a></li>
-            <li><a href="#Sony" uk-scroll title="Equipos Sony" uk-tooltip="pos: left">Item 4</a></li>
-            <li><a href="#Huawei" uk-scroll title="Equipos Huawei" uk-tooltip="pos: left">Item 5</a></li>
+            <li><a href="#Samsung" uk-scroll title="Equipos Samsung" uk-tooltip="pos: left">Item 3</a></li>
+            <li><a href="#LG" uk-scroll title="Equipos LG" uk-tooltip="pos: left">Item 4</a></li>
+            <li><a href="#Sony" uk-scroll title="Equipos Sony" uk-tooltip="pos: left">Item 5</a></li>
+            <li><a href="#Huawei" uk-scroll title="Equipos Huawei" uk-tooltip="pos: left">Item 6</a></li>
         </ul>
     </div>
     <div id="Cover" uk-inline>
@@ -39,6 +40,40 @@
             </article>
         </div>
     </div>
+
+
+    <h1 class="uk-text-center">Equipos Samsung</h1>
+    <div id="Samsung" class="uk-section">
+        <div class="uk-container">
+            <div uk-grid class="uk-child-width-1-3@s" uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 500; repeat: true">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle">
+                        <img src="img/Samsung J1 Mini Prime.jpg" alt="Smartphone Samsung J1 Mini Prime" href="#modal-j1-mini" uk-toggle>
+                        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                            <p class="uk-h4 uk-margin-remove">Samsung J1 Mini Prime</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle">
+                        <img src="img/Samsung J1 Mini Prime.jpg" alt="Smartphone Samsung J1 Mini Prime" href="#modal-j1-mini" uk-toggle>
+                        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                            <p class="uk-h4 uk-margin-remove">Samsung J1 Mini Prime</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle">
+                        <img src="img/Samsung J1 Mini Prime.jpg" alt="Smartphone Samsung J1 Mini Prime" href="#modal-j1-mini" uk-toggle>
+                        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                            <p class="uk-h4 uk-margin-remove">Samsung J1 Mini Prime</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-divider-icon uk-container"></div>
 
     <!--Catalogo LG-->
 
@@ -145,6 +180,43 @@
     </div>
 
     <!-- ##### MODALS ###### -->
+    <!--SAMSUNG-->
+
+    <div id="modal-j1-mini" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/Samsung J1 Mini-Modal.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large uk-article">
+                    <h1 class="uk-article-title">Samsung J1 Mini Prime</h1>
+                    <p class="uk-text-lead">Especificaciones y caracteristicas</p>
+                    <p class="uk-article-meta"> SAP: 1685404 - 1685403</p>
+                    <ul uk-accordion="multiple: true">
+                        <li class="uk-open">
+                            <h3 class="uk-accordion-title">Item 1</h3>
+                            <div class="uk-accordion-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="uk-accordion-title">Item 2</h3>
+                            <div class="uk-accordion-content">
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h3 class="uk-accordion-title">Item 3</h3>
+                            <div class="uk-accordion-content">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!--LG-->
 
     <div id="modal-lg-q6" class="uk-modal-full" uk-modal>
