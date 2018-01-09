@@ -2,10 +2,10 @@
 //Samsung
 //1685404		Samsung j1 mini prime
 //1685403
-1625561		Samsung j1 Ace
-1669047
-1686558
-1686559
+//1625561		Samsung j1 Ace
+//1669047
+//1686558
+//1686559
 1710639		Samsung J2 prime
 1671173
 1686560
