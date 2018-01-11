@@ -1,18 +1,18 @@
-﻿    .uk-accordion-content {
-         text-align: right
-    }
+﻿.uk-accordion-content {
+    text-align: right
+}
 
-    li > a {
+.uk-navbar-nav > li > a {
     position: relative;
     color: #000;
     text-decoration: none;
-    }
+}
 
-    li > a:hover {
+    .uk-navbar-nav > li > a:hover {
         color: #000;
     }
 
-    li > a:before {
+    .uk-navbar-nav > li > a:before {
         content: "";
         position: absolute;
         width: 100%;
@@ -27,7 +27,7 @@
         transition: all 0.3s ease-in-out 0s;
     }
 
-    li > a:hover:before {
+    .uk-navbar-nav > li > a:hover:before {
         visibility: visible;
         -webkit-transform: scaleX(1);
         transform: scaleX(1);
