@@ -13,7 +13,8 @@
 </head>
 
 <body>
-    <div class="uk-position-center-right uk-position-medium uk-position-fixed uk-dark">
+
+    <div class="uk-position-center-right uk-position-medium uk-position-fixed uk-dark uk-hidden-touch">
         <ul class="uk-dotnav uk-dotnav-vertical" uk-scrollspy-nav="closest: li; scroll: true">
             <li><a href="#Cover" uk-scroll title="Portada" uk-tooltip="pos: left">Item 1</a></li>
             <li><a href="#Presentacion" uk-scroll title="Presentacion" uk-tooltip="pos: left">Item 2</a></li>
@@ -23,7 +24,58 @@
             <li><a href="#Huawei" uk-scroll title="Equipos Huawei" uk-tooltip="pos: left">Item 6</a></li>
         </ul>
     </div>
-    <div id="Cover" uk-inline>
+
+
+
+    <div id="Cover">
+        <div uk-height-viewport class="uk-background-fixed uk-background-center-center uk-width-viewport" style="background-image: url(img/cover.jpg);"></div>
+        <div class="uk-position-top">
+            <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+                <nav class="uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
+                    <div class="uk-navbar-center">
+                        <div class="uk-navbar-center-left">
+                            <div>
+                                <ul class="uk-navbar-nav">
+                                    <li class="uk-active"><a href="#">Active</a></li>
+                                    <li>
+                                        <a href="#">Parent R</a>
+                                        <div class="uk-navbar-dropdown">
+                                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                <li class="uk-active"><a href="#">Active</a></li>
+                                                <li><a href="#">Item</a></li>
+                                                <li><a href="#">Item</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a class="uk-navbar-item uk-logo" href="#">Audio Y Video</a>
+                        <div class="uk-navbar-center-right">
+                            <div>
+                                <ul class="uk-navbar-nav">
+                                    <li>
+                                        <a href="#">Parent L</a>
+                                        <div class="uk-navbar-dropdown">
+                                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                <li class="uk-active"><a href="#">Active</a></li>
+                                                <li><a href="#">Item</a></li>
+                                                <li><a href="#">Item</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Item</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!--<div id="Cover" uk-inline>
         <div uk-height-viewport class="uk-background-fixed uk-background-center-center uk-width-viewport" style="background-image: url(img/cover.jpg);"></div>
         <div class="uk-position-center-left uk-overlay uk-overlay-default">
             <article class="uk-article">
@@ -31,7 +83,9 @@
                 <p class="uk-article-meta">Ultima actualización: <b>10 de enero de 2018</b></p>
             </article>
         </div>
-    </div>
+    </div>-->
+
+
     <div id="Presentacion" class="uk-section">
         <div class="uk-container">
             <article class="uk-article">
@@ -500,8 +554,8 @@
                     </div>
                 </div>
             </div>
-        </div>       
-        
+        </div>
+
         <!--J7 Prime-->
         <div id="modal-j7-prime" class="uk-modal-full" uk-modal>
             <div class="uk-modal-dialog">
@@ -617,8 +671,6 @@
     </div>
 
     <!--LG-->
-
-
     <!--Lg Q6-->
     <div id="modal-lg-q6" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
