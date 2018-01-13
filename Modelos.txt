@@ -37,6 +37,11 @@
 1704572
 1704570		
 
+//Sony
+//1669483		Sony E5
+//1730719		Sony L1
+//1730718		Sony XA1 Ultra
+
 //Huawei
 1662407		Huawei Y5 II
 1663817
@@ -44,6 +49,7 @@
 1651475		Huawei GR3
 1653202		Huawei Y6
 1686110		Huawei Y6 II
+1730717		Huawei Y7
 1709932
 1729284
 1662469		Huawei P8 Lite
@@ -70,7 +76,6 @@
 1662468		Own s3000s
 1662470		Own One
 1663816		BMobile AX-605
-1669483		Sony E5
 1672571		Alcatel Pixi 4 (5.0)
 1709926		Alcatel U
 1709928		BMobile AX820
@@ -79,9 +84,6 @@
 1729283		Own 1023
 1729288		Nokia 3
 1730715		Alcatel Pixi 3 (3.5)
-1730717		Huawei Y7
-1730718		Sony XA1 Ultra
-1730719		Sony L1
 
 
 1716290		Xiaomi 4A
